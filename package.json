@@ -9,12 +9,14 @@
   "categories": [
     "AI"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:nearcoder.generate"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "vscoder.generate",
+        "command": "nearcoder.generate",
         "title": "Generate"
       }
     ]
@@ -38,5 +40,8 @@
     "@vscode/test-electron": "^2.4.0",
     "eslint": "^8.57.0",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }
