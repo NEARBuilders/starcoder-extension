@@ -1,5 +1,6 @@
 {
   "name": "nearcoder",
+  "publisher": "partage",
   "displayName": "nearcoder",
   "description": "VS Code extension for inline completion using StarCoder2",
   "version": "0.0.1",
@@ -8,9 +9,6 @@
   },
   "categories": [
     "AI"
-  ],
-  "activationEvents": [
-    "onCommand:nearcoder.generate"
   ],
   "main": "./out/extension.js",
   "contributes": {

@@ -1,71 +1,44 @@
-# vscoder README
+# StarCoder: Your Web3 Coding Companion in VS Code
 
-This is the README for your extension "vscoder". After writing up a brief description, we recommend including the following sections.
+StarCoder is a cutting-edge Code LLM which we wrap in a VS Code extension to bring the power of AI to your fingertips. Specifically designed for Web3 developers, with StarCoder Extension you can bid farewell to tedious coding tasks and embrace a seamless coding experience.
 
-## Features
+## Key Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+* **Code Completion:** StarCoder understands your code and suggests completions as you type, saving you precious time and reducing errors.
+* **Code Generation:** Need a quick function or a complex algorithm? Just describe it in plain English, and StarCoder will generate the code for you.
+* **Code Explanation:** StarCoder can explain complex code snippets in simple terms, making it easier for you to understand and debug.
+* **Code Refactoring:** Optimize your code with a single click. StarCoder identifies areas for improvement and suggests refactoring options.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+To get started with StarCoder, you'll need:
 
-## Extension Settings
+* VS Code 1.60 or later
+* Node.js 12 or later
+* A Web3-compatible development environment (e.g., Ethereum, Polkadot, or Solana)
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## Installation
 
-For example:
+To install StarCoder, follow these simple steps:
 
-This extension contributes the following settings:
+1. Open VS Code and navigate to the Extensions view (Ctrl+Shift+X or Cmd+Shift+X on macOS).
+2. Search for "StarCoder" and install the extension.
+3. Reload VS Code to complete the installation.
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## Get Started
 
-## Known Issues
+After installation, open a Web3 project in VS Code, and StarCoder will be ready to assist you. You can also access StarCoder's features through the Command Palette (Ctrl+Shift+P or Cmd+Shift+P on macOS) by typing "StarCoder".
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## About StarCoder
 
-## Release Notes
+StarCoder is an open-source project developed by a passionate community of Web3 developers. We're constantly working to improve the extension and welcome your feedback and contributions.
 
-Users appreciate release notes as you update your extension.
+## Join the Community
 
-### 1.0.0
+* Join our Discord server: [discord.gg/star](https://discord.gg/starcoder)
+* Follow us on Twitter: [@star_coder](https://twitter.com/star_coder)
+* Contribute to the project on GitHub: [github.com/starcoder/extension](https://github.com/starcoder/extension)
 
-Initial release of ...
+## Happy Coding!
 
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+With StarCoder by your side, you'll be able to focus on what matters most: building innovative Web3 applications. Get started today and experience the power of AI-assisted coding!
