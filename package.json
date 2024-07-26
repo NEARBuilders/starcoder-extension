@@ -1,6 +1,6 @@
 {
   "name": "starcoder",
-  "publisher": "NEAR builders",
+  "publisher": "nearbuilders",
   "displayName": "starcoder",
   "description": "VS Code extension for inline completion using StarCoder2",
   "version": "0.0.1",
