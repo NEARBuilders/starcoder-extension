@@ -11,7 +11,7 @@ interface ResponseModel {
 }
 
 export default async (input: string): Promise<string | null> => {
-    const apiUrl = vscode.workspace.getConfiguration("nearcoder").get("apiurl") as string;
+    const apiUrl = vscode.workspace.getConfiguration("starcoder").get("apiurl") as string;
     const bearerToken = process.env.BEARER_TOKEN;
 
     if (!bearerToken) {
@@ -32,7 +32,7 @@ export default async (input: string): Promise<string | null> => {
         if (response.status !== 200) {
             if (response.status === 400) {
                 vscode.window.showErrorMessage("Bearer invalid!");
-                vscode.workspace.getConfiguration("nearcoder").update("bearertoken", "", vscode.ConfigurationTarget.Global);
+                vscode.workspace.getConfiguration("starcoder").update("bearertoken", "", vscode.ConfigurationTarget.Global);
                 updatetoken();
                 return null;
             } else {

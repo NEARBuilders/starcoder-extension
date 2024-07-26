@@ -8,25 +8,25 @@ import request from './request';
 
 export function activate(context: vscode.ExtensionContext) {
     // from StarCoderEx
-    console.log('Extension "nearcoder" is now activated!');
+    console.log('Extension "starcoder" is now activated!');
 
-    if (vscode.workspace.getConfiguration("nearcoder").get("bearertoken") === "") {
+    if (vscode.workspace.getConfiguration("starcoder").get("bearertoken") === "") {
         updatetoken();
     }
 
-    let scandoc = vscode.commands.registerCommand('nearcoder.ScanSel', async () => {
+    let scandoc = vscode.commands.registerCommand('starcoder.ScanSel', async () => {
         await scansel();
     });
 
-    let scandocprompt = vscode.commands.registerCommand('nearcoder.ScanSelPrompt', async () => {
+    let scandocprompt = vscode.commands.registerCommand('starcoder.ScanSelPrompt', async () => {
         await scansel();
     });
 
-    let tokenscreen = vscode.commands.registerCommand('nearcoder.TokenScreen', async () => {
+    let tokenscreen = vscode.commands.registerCommand('starcoder.TokenScreen', async () => {
         await updatetoken();
     });
 
-    let realtime = vscode.commands.registerCommand('nearcoder.StartLifeTime', async () => {
+    let realtime = vscode.commands.registerCommand('starcoder.StartLifeTime', async () => {
         await lifetime();
     });
 

@@ -1,7 +1,7 @@
 {
-  "name": "nearcoder",
-  "publisher": "partage",
-  "displayName": "nearcoder",
+  "name": "starcoder",
+  "publisher": "NEAR builders",
+  "displayName": "starcoder",
   "description": "VS Code extension for inline completion using StarCoder2",
   "version": "0.0.1",
   "engines": {
@@ -14,7 +14,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "nearcoder.generate",
+        "command": "starcoder.generate",
         "title": "Generate"
       }
     ]
