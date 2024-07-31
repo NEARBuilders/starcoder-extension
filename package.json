@@ -3,7 +3,7 @@
   "publisher": "nearbuilders",
   "displayName": "starcoder",
   "description": "VS Code extension for inline completion using StarCoder2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.91.0"
   },
@@ -17,7 +17,23 @@
         "command": "starcoder.generate",
         "title": "Generate"
       }
-    ]
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "StarCoder Configuration",
+      "properties": {
+        "starcoder.apiurl": {
+          "type": "string",
+          "default": "",
+          "description": "API URL for the StarCoder service"
+        },
+        "starcoder.bearertoken": {
+          "type": "string",
+          "default": "",
+          "description": "Bearer token for authenticating with the StarCoder service"
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
