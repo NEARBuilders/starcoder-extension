@@ -17,17 +17,26 @@ To get started with StarCoder, you'll need:
 * Node.js 12 or later
 * A Web3-compatible development environment (e.g., Ethereum, Polkadot, or Solana)
 
-## Installation
+## Install the Extension
 
 To install StarCoder, follow these simple steps:
 
-1. Open VS Code and navigate to the Extensions view (Ctrl+Shift+X or Cmd+Shift+X on macOS).
-2. Search for "StarCoder" and install the extension.
-3. Reload VS Code to complete the installation.
+1. Open VS Code.
+2. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or by pressing Ctrl+Shift+X.
+3. Search for "starcoder" in the Extensions marketplace.
+4. Find your extension named "StarCoder" by "nearbuilders" and click Install.
 
-## Get Started
+## Configure the Extension
 
-After installation, open a Web3 project in VS Code, and StarCoder will be ready to assist you. You can also access StarCoder's features through the Command Palette (Ctrl+Shift+P or Cmd+Shift+P on macOS) by typing "StarCoder".
+After installation, restart VS Code and configure StarCoder to assist you. 
+1. Open the Command Palette by pressing Ctrl+Shift+P (or Cmd+Shift+P on macOS).
+2. Type Preferences: Open Settings (UI) and press Enter.
+3. In the Settings UI, search for "nearcoder".
+4. You should see settings related to your extension. Set the API URL to the inference API of our baseline model at huggingface: 'https://api-inference.huggingface.co/models/bigcode/starcoder2-3b' and set the Bearer Token to your hugging face token (available at https://huggingface.co/settings/tokens). If necessary, update the token using the command in the extension.
+
+## Use the Extension for Inline Completion
+1. Open a new or existing file in your VS Code editor.
+2. Start typing your code. Your extension should automatically provide suggestions based on your inputs.
 
 ## About StarCoder
 
@@ -35,9 +44,9 @@ StarCoder is an open-source project developed by a passionate community of Web3 
 
 ## Join the Community
 
-* Join our Discord server: [discord.gg/star](https://discord.gg/starcoder)
-* Follow us on Twitter: [@star_coder](https://twitter.com/star_coder)
-* Contribute to the project on GitHub: [github.com/starcoder/extension](https://github.com/starcoder/extension)
+* Join our Telegram group: [nearbuilders.com/tg-builders](https://nearbuilders.com/tg-builders)
+* Follow us on Twitter: [@NearBuilders](https://x.com/NearBuilders)
+* Contribute to the project on GitHub: [github.com/nearbuilders/starcoder-extension](https://github.com/nearbuilders/starcoder-extension)
 
 ## Happy Coding!
 
